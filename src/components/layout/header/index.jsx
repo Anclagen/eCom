@@ -1,6 +1,6 @@
 import React, {useState} from "react";
 import {Link} from "react-router-dom";
-import { HeaderStyles } from "./header.styles";
+import { HeaderStyles } from "./styles";
 
 function Logo() {
   return (

@@ -6,7 +6,7 @@ export const HeaderStyles = styled.header`
   nav {
     min-height: 60px;
     font-size: 18px;
-    background-image: linear-gradient(260deg, rgb(42, 244, 152, 255) 0%, #3498db 100%);
+    background-color: lightslategray;
     border: 1px solid rgba(0, 0, 0, 0.2);
     padding-bottom: 10px;
     @media (min-width: 768px) {

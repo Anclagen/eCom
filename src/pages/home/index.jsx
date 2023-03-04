@@ -1,8 +1,8 @@
 import { Link } from "react-router-dom"
-import { baseURL } from "../../constants";
+import { baseURL } from "../../utilities/constants";
 import { useAPI } from "../../hooks/API";
 import { ProductCard } from "../../components/product/productCard";
-import { Wrapper, HomeHeading, ProductGrid } from "./home.styles";
+import { Wrapper, HomeHeading, ProductGrid } from "./styles";
 
 function Products({ products, isLoading, isError }) {
   if (isLoading) {
